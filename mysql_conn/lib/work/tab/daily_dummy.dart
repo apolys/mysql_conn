@@ -1,0 +1,108 @@
+
+import 'package:mysql_conn/work/tab/vo_checkin.dart';
+
+import '../../common/constants.dart';
+
+List<Checkin> myDailyList = [
+  Checkin(
+    stockName: '이마트 가양점',
+    storeCode: 's100001',
+    stockImagePath: '$basePath/logo/checkin_logo_03.png',
+    currentPrice: 41600,
+    yesterdayClosePrice: 41600,
+    thisdate: '7/24',
+    lastdate: '5/10',
+  ),
+  Checkin(
+    stockName: '현대백화점 목동점',
+    storeCode: 's200001',
+    stockImagePath: '$basePath/logo/checkin_logo_08.png',
+    currentPrice: 219000,
+    yesterdayClosePrice: 217000,
+    thisdate: '방문 전',
+    lastdate: '5/10',
+  ),
+  Checkin(
+    stockName: '홈플러스 강서점',
+    storeCode: 's300001',
+    stockImagePath: '$basePath/logo/checkin_logo_04.png',
+    currentPrice: 78000,
+    yesterdayClosePrice: 80000,
+    thisdate: '7/24',
+    lastdate: '5/10',
+  ),
+  Checkin(
+    stockName: '코스트코 양평점',
+    storeCode: 's400001',
+    stockImagePath: '$basePath/logo/checkin_logo_02.png',
+    currentPrice: 92300,
+    yesterdayClosePrice: 80000,
+    thisdate: '7/24',
+    lastdate: '5/10',
+  ),
+  Checkin(
+    stockName: '하나로마트 양재점',
+    storeCode: 's500001',
+    stockImagePath: '$basePath/logo/checkin_logo_01.png',
+    currentPrice: 82000,
+    yesterdayClosePrice: 80000,
+    thisdate: '7/24',
+    lastdate: '5/10',
+  ),
+  Checkin(
+    stockName: '트레이더스 부천점',
+    storeCode: 's600001',
+    stockImagePath: '$basePath/logo/checkin_logo_09.png',
+    currentPrice: 82000,
+    yesterdayClosePrice: 80000,
+    thisdate: '7/24',
+    lastdate: '5/10',
+  ),
+  Checkin(
+    stockName: '롯데백화점 잠실점',
+    storeCode: 's700001',
+    stockImagePath: '$basePath/logo/checkin_logo_05.png',
+    currentPrice: 82000,
+    yesterdayClosePrice: 80000,
+    thisdate: '7/24',
+    lastdate: '5/10',
+  ),
+  Checkin(
+    stockName: '신세계백화점 강남점',
+    storeCode: 's800001',
+    stockImagePath: '$basePath/logo/checkin_logo_07.png',
+    currentPrice: 82000,
+    yesterdayClosePrice: 80000,
+    thisdate: '7/24',
+    lastdate: '5/10',
+  ),
+  Checkin(
+    stockName: '롯데마트 서울역점',
+    storeCode: 's900001',
+    stockImagePath: '$basePath/logo/checkin_logo_06.png',
+    currentPrice: 82000,
+    yesterdayClosePrice: 80000,
+    thisdate: '7/24',
+    lastdate: '5/10',
+  ),
+  Checkin(
+    stockName: '이마트 월곡점',
+    storeCode: 's100002',
+    stockImagePath: '$basePath/logo/checkin_logo_03.png',
+    currentPrice: 82000,
+    yesterdayClosePrice: 80000,
+    thisdate: '7/24',
+    lastdate: '5/10',
+  ),
+  Checkin(
+    stockName: '홈플러스 평촌점',
+    storeCode: 's300002',
+    stockImagePath: '$basePath/logo/checkin_logo_04.png',
+    currentPrice: 82000,
+    yesterdayClosePrice: 80000,
+    thisdate: '7/24',
+    lastdate: '5/10',
+  ),
+];
+
+
